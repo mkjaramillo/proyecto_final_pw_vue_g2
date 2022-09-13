@@ -22,7 +22,7 @@
       <table class="table">
         <tread class="table-dark">
           <tr>
-            <th class="table-active">Modelo</th>
+            <th class="table-active">Placa</th>
             <th class="table-info">{{ auto.placa }}</th>
           </tr>
           <tr>
