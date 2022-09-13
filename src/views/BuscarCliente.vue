@@ -75,6 +75,7 @@ export default {
       if (data == "") {
         this.texto = "No hay resultados diponible para su busqueda";
         this.mostrarT = true;
+        this.mostrarB = false;
       } else {
         this.id = data.id;
         this.nombre = data.nombre;
@@ -83,6 +84,7 @@ export default {
         this.apellido = data.apellido;
         this.genero = data.genero;
         this.mostrarB = true;
+        this.mostrarT= false;
       }
     },
   },

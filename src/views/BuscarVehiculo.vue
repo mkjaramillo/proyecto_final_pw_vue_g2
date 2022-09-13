@@ -2,7 +2,7 @@
   <div>
     <navar-cliente></navar-cliente>
   <fieldset>
-    <legend>Buscar vehiculo disponible:</legend>
+    <legend>Buscar vehículo</legend>
     <div class="input-group mb-3">
       <label class="input-group-text" for="inputGroupSelect01">Marca:</label>
       <select

@@ -8,7 +8,7 @@
        <br>
        <br>
        <br>
-        <h1 >Los mejores carros en renta los encontrará aqui</h1>
+        <h1 >Los mejores carros en renta los encontrará aquí</h1>
 
     </div>
 

@@ -3,7 +3,7 @@
    
     <div id="divpag">
       <fieldset>
-        <legend>Reservar Vehículo</legend>
+        <legend>Reservar vehículo</legend>
         <div class="input-group flex-nowrap">
           <span class="input-group-text" id="idPlaca"
             >Placa del vehículo:
@@ -25,7 +25,7 @@
           />
         </div>
         <div class="input-group flex-nowrap">
-          <span class="input-group-text" id="idFechaI">Fecha Inicio:</span>
+          <span class="input-group-text" id="idFechaI">Fecha inicio:</span>
           <input
             type="date"
             class="form-control"

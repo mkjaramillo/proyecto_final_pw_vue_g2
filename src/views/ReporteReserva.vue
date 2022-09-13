@@ -19,7 +19,7 @@
       {{ mensaje }}
     </div>
 
-    <div>
+    <div v-if="mostrar">
       <table class="table">
         <thead class="table-dark">
           <tr class="table-active">

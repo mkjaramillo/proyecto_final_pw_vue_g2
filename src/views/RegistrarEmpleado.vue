@@ -3,7 +3,7 @@
     <navar-empleado></navar-empleado>
     <div id="divpag">
       <fieldset>
-        <legend>Registro Empleado</legend>
+        <legend>Registro Cliente</legend>
         <div class="input-group flex-nowrap">
           <span class="input-group-text" id="idCedula">Cédula: </span>
           <input

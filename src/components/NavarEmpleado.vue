@@ -8,10 +8,10 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <router-link class="nav-link active text-dark" aria-current="page" to="/registro/empleados">Registrar Empleado</router-link> 
+          <router-link class="nav-link active text-dark" aria-current="page" to="/registro/empleados">Registrar Cliente</router-link> 
         </li>
         <li class="nav-item">
-          <router-link class="nav-link active text-dark" aria-current="page" to="/buscar/cliente">Buscar Empleado</router-link> 
+          <router-link class="nav-link active text-dark" aria-current="page" to="/buscar/cliente">Buscar Cliente</router-link> 
         </li>
         <li class="nav-item">
           <router-link class="nav-link active text-dark" aria-current="page" to="/retiro/vehiculo">Retirar vehículo</router-link> 
