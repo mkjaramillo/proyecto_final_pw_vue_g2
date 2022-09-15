@@ -24,6 +24,12 @@
         <span class="input-group-text" id="cedula">Fecha de nacimiento:</span>
         <input type="date" class="form-control" v-model="nacimiento" required />
       </div>
+
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="profesion">Profesión:</span>
+        <input type="text" class="form-control" v-model="profesion" required />
+      </div>
+
       <div id="gene" class="input-group mb-3">
         <span class="input-group-text" id="cedula">Género: </span>
       </div>
@@ -84,6 +90,7 @@ export default {
       cedula: null,
       nombre: null,
       apellido: null,
+      profesion:null,
       nacimiento: null,
       genero: null,
       mensaje: "",
@@ -95,6 +102,7 @@ export default {
         cedula: this.cedula,
         nombre: this.nombre,
         apellido: this.apellido,
+        profesion: this.profesion,
         fechaNacimiento: this.nacimiento,
         genero: this.genero,
         tipoRegistro: "C",
@@ -103,6 +111,7 @@ export default {
         this.cedula == null ||
         this.nombre == null ||
         this.apellido == null ||
+        this.profesion ==null ||
         this.nacimiento == null ||
         this.genero == null
       ) {
@@ -114,6 +123,7 @@ export default {
       this.nombre= null,
       this.apellido= null,
       this.nacimiento= null,
+      this.profesion= null,
       this.genero= null,
       this.mensaje= ""
       if (response == "Cliente ingresado correctamente") {

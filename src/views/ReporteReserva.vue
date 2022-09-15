@@ -33,6 +33,7 @@
             <th scope="col">Placa</th>
             <th scope="col">Marca</th>
             <th scope="col">Modelo</th>
+            <th scope="col">Color</th>
             
           </tr>
         </thead>
@@ -48,6 +49,7 @@
             <td>{{ rescv.placa }}</td>
             <td>{{ rescv.marca }}</td>
             <td>{{ rescv.modelo }}</td>
+            <td>{{ rescv.color }}</td>
           </tr>
         </tbody>
       </table>

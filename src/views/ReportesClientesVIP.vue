@@ -10,6 +10,7 @@
           <th scope="col">Cédula</th>
           <th scope="col">Nombre</th>
           <th scope="col">Apellido</th>
+          <th scope="col">Profesión</th>
           <th scope="col">Valor IVA</th>
           <th scope="col">Valor total </th>
         </tr>
@@ -19,6 +20,7 @@
           <th scope="row">{{l.cedula}}</th>
           <td class="table-info">{{l.nombre}}</td>
           <td class="table-info">{{l.apellido}}</td>
+           <td class="table-info">{{l.profesion}}</td>
           <td class="table-info">{{l.valorIva}}</td>
           <td class="table-info">{{l.valorTotal}}</td>
         </tr>

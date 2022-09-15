@@ -283,6 +283,11 @@
         </select>
       </div>
 
+       <div class="input-group mb-3">
+        <span class="input-group-text" id="inicio">Color:</span>
+        <input type="text" class="form-control" v-model="color" />
+      </div>
+
       <div class="input-group mb-3">
         <span class="input-group-text">Año de fabricación:</span>
         <input type="text" class="form-control" v-model="anioFablicacion" />
@@ -327,6 +332,7 @@ export default {
       placa: null,
       modelo: null,
       marca: null,
+      color:null,
       anioFablicacion: null,
       paisFabricacion: null,
       cilindraje: null,
@@ -357,6 +363,7 @@ export default {
         placa: this.placa,
         modelo: this.modelo,
         marca: this.marca,
+        color:this.color,
         anioFablicacion: this.anioFablicacion,
         paisFabricacion: this.paisFabricacion,
         cilindraje: this.cilindraje,
@@ -368,6 +375,7 @@ export default {
         this.placa == null ||
         this.modelo == null ||
         this.marca == null ||
+        this.color == null ||
         this.anioFablicacion == null ||
         this.paisFabricacion == null ||
         this.cilindraje == null ||
@@ -380,6 +388,7 @@ export default {
         (this.placa = null),
           (this.modelo = null),
           (this.marca = null),
+          (this.color =null),
           (this.anioFablicacion = null),
           (this.paisFabricacion = null),
           (this.cilindraje = null),

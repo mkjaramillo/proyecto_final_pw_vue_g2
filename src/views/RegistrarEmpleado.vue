@@ -40,7 +40,17 @@
             v-model="fechaNac"
           />
         </div>
-        <br>
+
+        <div class="input-group flex-nowrap">
+          <span class="input-group-text" id="idFechaN">Profesión:</span>
+          <input
+            type="text"
+            class="form-control"
+            aria-describedby="addon-wrapping"
+            v-model="profesion"
+          />
+        </div>
+<br>
         <div>
           <span class="input-group-text" id="idGenero">Género:</span>
           <div class="form-check form-check-inline">
@@ -93,6 +103,7 @@ export default {
       cedula: null,
       fechaNac: null,
       apellido: null,
+      profesion:null,
       genero: null,
       mostrarR: false,
       texto: null,
@@ -104,6 +115,7 @@ export default {
         cedula: this.cedula,
         nombre: this.nombre,
         apellido: this.apellido,
+        profesion: this.profesion,
         fechaNacimiento: this.fechaNac,
         genero: this.genero,
         tipoRegistro: "E",
@@ -113,6 +125,7 @@ export default {
         this.nombre == null ||
         this.apellido == null ||
         this.fechaNac == null ||
+         this.profesion == null ||
         this.genero == null
       ) {
         this.texto = "Llene todos los Parametros";
@@ -125,6 +138,7 @@ export default {
         this.cedula = "";
         this.fechaNac = "";
         this.apellido = "";
+        this.profesion = "";
         this.genero = "";
       }
     },
